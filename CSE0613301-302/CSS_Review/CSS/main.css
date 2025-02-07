@@ -1,0 +1,76 @@
+.green-bg{
+    background-color: lightgreen;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
+table{
+    border: solid 4px rgba(30, 0, 0, 1);
+    border-collapse: collapse;
+}
+
+
+.row-border{
+    border: solid 2px rgb(78, 108, 17);
+}
+
+#first-heading{
+    font-size: 40px;
+}
+
+.background{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Media/f3.jpg);
+    background-color: aqua;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: scroll;
+}
+
+.h-style{
+    color: white;
+    background-color: palevioletred;
+    text-align: center;
+    text-decoration:line-through;
+    
+}
+
+.div2{
+    /* border shorthand property */
+    border: 2px solid black; 
+    /* border-width: 2px 4px 8px 10px;
+    border-style: solid dotted dashed double;
+    border-color: black blue gray green; */
+    height: 500px;
+    margin: 5%;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.button-style{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    font-size: 100px;}
+
+    ul{
+        list-style-type: square;
+        /* list-style-image: url(../Media/tik.png); */
+        background-size: 10px;
+    }
