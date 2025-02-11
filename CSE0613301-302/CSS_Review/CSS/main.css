@@ -29,7 +29,7 @@ table{
     background-repeat: repeat-y;
     background-size: cover;
     background-position: center ;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .h-style{
