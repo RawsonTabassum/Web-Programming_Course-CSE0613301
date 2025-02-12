@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid saddlebrown;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flex-item{
+    border: 2px solid darkred;
+    padding: 10px;
+    flex-basis: 200px;
+}
+
+.item-grow{
+    flex-grow: 3;
+}
+
+.item-shrink{
+    flex-shrink: 1;
+}
+
+.image-style{
+    width: 200px;
+}
