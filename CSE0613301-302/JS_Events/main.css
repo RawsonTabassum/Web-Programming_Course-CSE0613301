@@ -1,0 +1,23 @@
+#container{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    border: 2px solid hotpink;
+}
+
+#bg-btn, #inc-btn, #dec-btn, #visibility, #hide-text{
+    border: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+img{
+    margin: 20px;
+    width: 300px;
+    display: block;
+}
