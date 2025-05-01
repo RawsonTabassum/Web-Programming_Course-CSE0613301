@@ -1,0 +1,38 @@
+.nav-bg{
+    background-color: darkblue;
+    padding: 5px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-style{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(223, 41, 72);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.grid-item{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}

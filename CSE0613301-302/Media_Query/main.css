@@ -1,0 +1,39 @@
+.navbar{
+    background-color: darkblue;
+}
+
+.ul-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    padding: 20px;
+    border: 2px solid white;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        width: 200px;
+    }
+
+    li{
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .ul-style{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
