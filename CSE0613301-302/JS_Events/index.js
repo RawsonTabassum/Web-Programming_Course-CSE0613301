@@ -70,10 +70,27 @@ inp.style.fontSize = '15px';
 parentDiv.appendChild(inp);
 
 // submit a form
+const sForm = document.getElementById('submit-form');
+sForm.addEventListener('submit', (event)=> {
+    event.preventDefault();
+    const text = document.getElementById('name-input').value;
+    const email = document.getElementById('email-input').value;
+    const div = document.getElementById('show');
+    div.innerHTML = `<h3>Name: ${text}</h3>
+                    <p>Email: ${email}</p>`;
+})
 
-
-
-// focus input field
-
-
-// blur input field
+const text = document.getElementById('name-input');
+text.style.padding = '10px';
+text.addEventListener('focus', ()=> {
+    text.style.backgroundColor = 'lightgreen';
+    text.style.border = '1px solid green';
+    text.style.borderRadius = '5px';
+})
+const email = document.getElementById('email-input');
+email.style.padding = '10px';
+email.addEventListener('focus', ()=> {
+    email.style.backgroundColor = 'lightyellow';
+    email.style.border = '1px solid yellow';
+    email.style.borderRadius = '5px';
+})
